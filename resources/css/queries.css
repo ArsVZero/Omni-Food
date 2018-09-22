@@ -5,18 +5,18 @@
         padding: 0 2%;
     }
 
-    .row{
+    .row {
         padding: 0 2%;
     }
 }
 
 /* Small Tablets to Big Tablet (From 768px to 1023px) */
 @media only screen and (max-width: 1023px) {
-    body{
+    body {
         font-size: 18px;
     }
 
-    section{
+    section {
         padding: 60px 0;
     }
 
@@ -26,27 +26,27 @@
         text-align: center;
     }
 
-    .steps-box{
+    .steps-box {
         margin-top: 10px;
     }
 
-    .steps-box:last-child{
+    .steps-box:last-child {
         margin-top: 10px;
     }
 
-    .works-step{
+    .works-step {
         margin-bottom: 40px;
     }
 
-    .works-step:last-of-type{
+    .works-step:last-of-type {
         margin-bottom: 60px;
     }
 
-    .app-screen{
+    .app-screen {
         width: 50%;
     }
 
-    .icon-small{
+    .icon-small {
         width: 15px;
     }
 
@@ -56,21 +56,21 @@
         margin-right: 10px;
     }
 
-    .city-feature{
+    .city-feature {
         font-size: 80%;
     }
 
-    .plan-box{
+    .plan-box {
         width: 100%;
         margin-left: 0;
         font-size: 80%;
     }
 
-    .plan-price{
+    .plan-price {
         font-size: 250%;
     }
 
-    .contact-form{
+    .contact-form {
         width: 80%;
     }
 
@@ -84,43 +84,45 @@
         font-size: 90%;
     }
 
-    .box h3{
+    .box h3 {
         font-size: 90%;
     }
 }
 
 /* Small Phones to Small Tablets (From 481px to 767px) */
 @media only screen and (max-width: 767px) {
-    body{
+    body {
         font-size: 16px;
     }
 
-    section{
+    section {
         padding: 30px 0;
     }
 
-    .row, .hero-text-box{
+    .row,
+    .hero-text-box {
         padding: 0 4%;
     }
 
-    .hero-text-box{
+    .hero-text-box {
         font-size: 65%;
     }
 
-    .col{
+    .col {
         width: 100%;
         margin: 0 0 5% 0;
     }
 
-    .main-nav{
+    .main-nav {
         display: none;
     }
 
-    .box, .plan-box{
+    .box,
+    .plan-box {
         font-size: 120%;
     }
 
-    h2{
+    h2 {
         font-size: 145%;
     }
 
@@ -156,8 +158,8 @@
 }
 
 /* Small Phones (From 0 to 480px) */
-@media only screen and (max-width: 480px){
-    h1{
+@media only screen and (max-width: 480px) {
+    h1 {
         font-size: 200%;
     }
 
@@ -165,11 +167,11 @@
         font-size: 110%;
     }
 
-    section{
+    section {
         padding: 25px 0;
     }
 
-    .contact-form{
+    .contact-form {
         width: 100%;
     }
 }
