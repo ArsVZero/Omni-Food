@@ -230,13 +230,22 @@ header {
 	-o-transform: translate(-50%, -50%);
 }
 
-.logo {
+.logo{
 	height: 100px;
 	width: auto;
 	float: left;
 	margin-top: 20px;
 }
 
+.logo-black{
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+}
+
+/* Main Navigation */
 .main-nav {
 	float: right;
 	list-style: none;
@@ -266,6 +275,38 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
 	border-bottom: 2px solid #e67e22;
+}
+/* Sticky Navigation */
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 2px 2px #efefef;
+	-webkit-box-shadow: 0 2px 2px #efefef;
+	-moz-box-shadow: 0 2px 2px #efefef;
+	-ms-box-shadow: 0 2px 2px #efefef;
+	-o-box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+.sticky .main-nav {
+	margin-top: 20px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	padding: 17px 0;
+	color: #555555;
+}
+
+.sticky .logo{
+	display: none;
+}
+
+.sticky .logo-black{
+	display: block;
 }
 
 /* Features */
