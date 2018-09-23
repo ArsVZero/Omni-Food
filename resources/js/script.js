@@ -8,7 +8,7 @@ $(document).ready(function () {
             $('nav').removeClass('sticky');
         }
     }, {
-        offset: '75%'
+        offset: '50%'
     })
 
     // Scroll on Buttons
@@ -85,5 +85,9 @@ $(document).ready(function () {
             $('.js--nav-icon i').addClass('ion-md-menu');
             $('.js--nav-icon i').removeClass('ion-md-close');
         }
+    });
+
+    $(window).bind('resize', function (e) {
+        this.location.reload(false);
     });
 });
