@@ -74,4 +74,16 @@ $(document).ready(function () {
     }, {
         offset: '50%'
     })
+
+    // Mobile Nav Icon
+    $('.js--nav-icon').click(function () {
+        $('.js--main-nav').slideToggle(200);
+        if ($('.js--nav-icon i').hasClass('ion-md-menu')) {
+            $('.js--nav-icon i').addClass('ion-md-close');
+            $('.js--nav-icon i').removeClass('ion-md-menu');
+        } else {
+            $('.js--nav-icon i').addClass('ion-md-menu');
+            $('.js--nav-icon i').removeClass('ion-md-close');
+        }
+    });
 });
