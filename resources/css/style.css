@@ -207,7 +207,7 @@ input[type=submit] {
 /* Header Section */
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-		url('image/hero.jpg');
+		url('image/hero-min.jpg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -447,7 +447,7 @@ header {
 /* Testimonials */
 .section-testimonals {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-		url('image/back-customers.jpg');
+		url('image/back-customers-min.jpg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
